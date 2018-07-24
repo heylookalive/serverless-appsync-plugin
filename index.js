@@ -30,7 +30,7 @@ class ServerlessAppsyncPlugin {
         + `is no longer supported. See ${MIGRATION_DOCS} for more information`);
     };
     this.hooks = {
-      'before:deploy:initialize': () => this.validateSchema(),
+      //'before:deploy:initialize': () => this.validateSchema(),
       'delete-appsync:delete': () => this.deleteGraphQLEndpoint(),
       'deploy-appsync:deploy': generateMigrationErrorMessage('deploy-appsync'),
       'update-appsync:update': generateMigrationErrorMessage('update-appsync'),
