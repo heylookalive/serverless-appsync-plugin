@@ -1,9 +1,9 @@
 {
-  "name": "serverless-appsync-plugin",
-  "version": "1.0.1",
-  "description": "AWS AppSync support for the Serverless Framework",
+  "name": "serverless-appsync-plugin-alli",
+  "version": "1.0.2",
+  "description": "AWS AppSync support for the Serverless Framework fork",
   "main": "index.js",
-  "repository": "https://github.com/sid88in/serverless-appsync-plugin",
+  "repository": "https://github.com/heylookalive/serverless-appsync-plugin",
   "license": "MIT",
   "scripts": {
     "test": "jest",
